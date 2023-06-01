@@ -36,14 +36,12 @@
     "@testing-library/react": "13.3.0",
     "@testing-library/user-event": "14.4.1",
     "bootstrap": "4.5.3",
-
     "classnames": "2.3.1",
     "gulp-append-prepend": "1.0.9",
     "moment": "2.29.4",
     "nouislider": "14.6.3",
     "perfect-scrollbar": "1.5.5",
     "react": "18.2.0",
-
     "react-datetime": "3.1.1",
     "react-dom": "18.2.0",
     "react-router-dom": "5.2.0",
@@ -61,9 +59,8 @@
     "typescript": "4.7.4"
   },
   "scripts": {
-    "build": "react-scripts build --no-warnings",
-    "start": "react-scripts start",
     "build": "react-scripts build",
+    "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
